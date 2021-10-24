@@ -1,7 +1,7 @@
 # Cryptocurrencies
 ### 
-We'll use unsupervised machine learning to analyze data on the cryptocurrencies. To introuce a new cryptocurrencies investment portfolio for the customers, we have to create a report that includes how the available trading market cryptocurrencies could be grouped to create a classification system for this new investment.
-clustering algorithm and visualization will be used to help determine investment groupings of this product.
+We'll use unsupervised machine learning to analyze data on the cryptocurrencies. To introuce a new cryptocurrency investment portfolio for the customers, we have to create a report that includes how the available trading market cryptocurrencies could be grouped to create a classification system for this new investment.
+Clustering algorithm and visualization will be used to help determine investment groupings of this product.
 
 ### 
 We used crypto_data.csv for data analysis.
@@ -9,7 +9,7 @@ We used crypto_data.csv for data analysis.
 
 ### Deliverable 1: Preprocessing the Data for PCA
 
-Read in the crypto_data.csv to the Pandas DataFrame named crypto_df.
+Read the crypto_data.csv to the Pandas DataFrame named crypto_df.
 Dropped the IsTrading column.
 Removed rows that have at least one null value.
 Filtered the crypto_df DataFrame so it only has rows where coins have been mined.
@@ -30,10 +30,10 @@ Created a new DataFrame named pcs_df that includes the following columns, PC 1, 
 
 
 ### Deliverable 3: Clustering Cryptocurrencies Using K-means
-The K-means algorithm is used to cluster the cryptocurrencies using the PCA data
-An elbow curve is created using hvPlot to find the best value for K 
-Predictions are made on the K clusters of the cryptocurrencies’ data
-A new DataFrame is created with the same index as the crypto_df DataFrame and has the following columns: Algorithm, ProofType, TotalCoinsMined, TotalCoinSupply, PC 1, PC 2, PC 3, CoinName, and Class 
+The K-means algorithm is used to cluster the cryptocurrencies using the PCA data.
+An elbow curve is created using hvPlot to find the best value for K .
+Predictions are made on the K clusters of the cryptocurrencies’ data.
+A new DataFrame is created with the same index as the crypto_df DataFrame and has the following columns: Algorithm, ProofType, TotalCoinsMined, TotalCoinSupply, PC 1, PC 2, PC 3, CoinName, and Class .
 
 ![png_18mod3](https://github.com/Ruma-T/Cryptocurrencies/blob/main/Resources/18mod3.PNG)
 
